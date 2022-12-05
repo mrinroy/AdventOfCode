@@ -1,6 +1,7 @@
 in_file = "input.txt"
 
 def build_stacks(in_file):
+    # Stupid function, just manually do what is done here
     list_read = []
     meta_lines = 0
     with open(in_file) as file:
